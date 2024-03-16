@@ -36,7 +36,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: start;
   margin: 1pt;
   padding: 1pt;
   gap: 5pt;
@@ -51,4 +50,17 @@ img {
   margin: 2pt;
   padding: 2pt;
   border-radius: 3pt;
+}
+
+.signo-input {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.signo-entry {
+  width: 120px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
 }

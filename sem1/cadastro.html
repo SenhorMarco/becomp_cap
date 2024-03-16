@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title></title>
+  <title>Oscar dos animes: Cadastro</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="style.css" rel="stylesheet">
@@ -19,6 +19,91 @@
     </nav>
     <hr>
   </div>
+  <p>Venha nos dizer a sua opinião!</p>
+  <form>
+    <label for="name">Nome:</label>
+    <input type="text" name="nome" placeholder="O seu belo nome!" required>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" placeholder="Seu email" required>
+    <br><br>
+
+    <label for="pass">Senha:</label>
+    <input type="password" placeholder="Guardaremos ela com nossa vida!" required>
+    <br><br>
+
+    <label for="adult">É maior de idade?</label>
+    <input type="checkbox" name="adult">
+    <br><br>
+    <label for="signo">Signo:</label>
+    <div class="signo-input">
+      <div class="signo-entry">
+        <label for="s1">Áries</label>
+        <input type="radio" name="signo" value="aries" checked>
+      </div>
+
+      <div class="signo-entry">
+        <label for="s1">Touro</label>
+        <input type="radio" name="signo" value="touro">
+      </div>
+      <div class="signo-entry">
+        <label for="s1">Gêmeos</label>
+        <input type="radio" name="signo" value="gemeos">
+      </div>
+      <div class="signo-entry">
+        <label for="s1">Câncer</label>
+        <input type="radio" name="signo" value="cancer">
+      </div>
+      <div class="signo-entry">
+        <label for="s1">Leão</label>
+        <input type="radio" name="signo" value="leao">
+      </div>
+      <div class="signo-entry">
+        <label for="s1">Virgem</label>
+        <input type="radio" name="signo" value="virgem">
+      </div>
+      <div class="signo-entry">
+        <label for="s1">Libra</label>
+        <input type="radio" name="signo" value="libra">
+      </div>
+      <div class="signo-entry">
+        <label for="s1">Escorpião</label>
+        <input type="radio" name="signo" value="escorpiao">
+      </div>
+      <div class="signo-entry">
+        <label for="s1">Sagitário</label>
+        <input type="radio" name="signo" value="sagitario">
+      </div>
+      <div class="signo-entry">
+        <label for="s1">Capricórnio</label>
+        <input type="radio" name="signo" value="capricornio">
+      </div>
+      <div class="signo-entry">
+        <label for="s1">Aquário</label>
+        <input type="radio" name="signo" value="aquario">
+      </div>
+      <div class="signo-entry">
+        <label for="s1">Peixes</label>
+        <input type="radio" name="signo" value="peixes">
+      </div>
+    </div>
+    <br><br>
+    <div class="ranking">
+      <div>
+        <h3>Digite os seus animes favoritos (um por linha!):</h3>
+        <textarea required rows="15" cols="55"></textarea>
+      </div>
+
+      <div>
+        <h3>Digite os seus personagens favoritos (um por linha!):</h3>
+        <textarea required rows="15" cols="55"></textarea>
+      </div>
+    </div>
+    <br><br>
+
+    <input type="submit" value="Cadastrar!">
+  </form>
 </body>
 
 </html>
