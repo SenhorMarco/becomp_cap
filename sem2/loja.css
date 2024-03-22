@@ -1,19 +1,47 @@
 .navbar {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  margin: 5px;
+  padding: 5px;
+  row-gap: 0px;
+  text-align: center;
 }
 
-.navbar .title {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.title {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color: teal;
+}
+
+.navbar h2 {
+  background-color: skyblue;
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: auto;
+
+  margin: 5px;
+  padding: 5px;
+}
+
+.content {
+  margin: 5px;
+  padding: 5px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.item {
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+  padding: 5px;
+
 }
