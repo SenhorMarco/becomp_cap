@@ -1,47 +1,79 @@
-.navbar {
+body {
+  background-color: #d9d9d9;
+}
+
+.app {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto;
-  margin: 5px;
-  padding: 5px;
-  row-gap: 0px;
-  text-align: center;
+}
+
+.cabecalho {
+  display: grid;
+}
+
+.navbar {
+  display: flex;
+  background-color: #018dba;
+  justify-content: space-around;
 }
 
 .title {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  background-color: teal;
-}
-
-.navbar h2 {
-  background-color: skyblue;
+  text-align: center;
+  background-color: #2dc8f9;
 }
 
 footer {
   text-align: center;
   background-color: black;
   color: white;
-  width: 100%;
-  height: auto;
-
-  margin: 5px;
-  padding: 5px;
+  margin: 10px;
 }
 
 .content {
-  margin: 5px;
-  padding: 5px;
   display: grid;
-  gap: 25px;
+  margin: 10px;
+  padding: 5px;
   grid-template-columns: auto auto auto auto;
+  gap: 10px;
 }
 
 .item {
-  border: 2px solid black;
-  width: 250px;
-  height: 250px;
-  margin: 5px;
-  padding: 5px;
+  width: 20vw;
+  height: auto;
+  display: grid;
+  text-align: center;
+}
 
+.desc {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.buy {
+  display: grid;
+  padding: 10px;
+}
+
+.buy button {
+  background-color: #018dba;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  height: 40px;
+  font-size: 16px;
+  margin: 5px;
+  opacity: 0.9;
+}
+
+.buy button:hover {
+  opacity: 1;
+}
+
+.buy span {
+  font-size: 20px;
+  color: #018dba;
+}
+
+.item img {
+  border-radius: 10px;
 }

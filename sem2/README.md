@@ -4,13 +4,13 @@
 Replicação da loja modelo.
 
 ### Requisitos
-- [ ] A organização da div que vai conter a header, barra de navegação, loja com os produtos e o rodapé deve ser feito utilizando o grid.
+- [x] A organização da div que vai conter a header, barra de navegação, loja com os produtos e o rodapé deve ser feito utilizando o grid.
 - [ ] O texto da header deve ter uma borda
 - [ ] O texto da header deve ser feito utilizando um gradiente para dar cor a ele (Pesquisem no GPT, é dboas)
 - [ ] O texto da barra de navegação (suplementos, camisas, coqueteleiras, agulhas) devem ter um hover que deixa o texto laranja quando passa o mouse sobre ele (A barra de navegação não é funcional, pois estamos trabalhando com apenas uma página, porém coloquem o hover)
-- [ ] O texto da barra de navegação deve ser espaçado usando o flex
+- [x] O texto da barra de navegação deve ser espaçado usando o flex
 - [x] a loja com os produtos deve ser feito utilizando o grid
-- [ ] O botão de comprar deve ter algum hover (podem utilizar o mesmo que a aula vai mostrar para vocês)
+- [x] O botão de comprar deve ter algum hover (podem utilizar o mesmo que a aula vai mostrar para vocês)
 
 
 ### Modelo
